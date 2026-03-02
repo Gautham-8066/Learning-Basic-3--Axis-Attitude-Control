@@ -22,9 +22,11 @@ Where:
 
 
 https://github.com/user-attachments/assets/28b1aa29-ecd6-4945-ab2e-095f3850a858
-<img width="1000" height="600" alt="stabilization_results" src="https://github.com/user-attachments/assets/8b0c5654-abcc-4027-9a72-2f8470eb5e50" />
 
 The graph below shows the Step Response of the 3-axis PID controller over a 10-second simulation window.Key Observations:Convergence: All three axes (Roll, Pitch, and Yaw) successfully converge to the target state ($0^\circ$) from their initial offsets ($10^\circ, -10^\circ, 5^\circ$).
+<img width="1000" height="600" alt="stabilization_results" src="https://github.com/user-attachments/assets/8b0c5654-abcc-4027-9a72-2f8470eb5e50" />
+
+
 
 
 
