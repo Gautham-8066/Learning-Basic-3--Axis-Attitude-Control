@@ -1,2 +1,19 @@
-# Learning-Basic-3--Axis-Attitude-Control
-A Python-based simulator that uses a PID (Proportional-Integral-Derivative) control loop to stabilize a rigid-body spacecraft in 3D space.
+# 3-Axis Spacecraft Attitude Controller
+
+A Python-based simulator that uses a **PID (Proportional-Integral-Derivative)** control loop to stabilize a rigid-body spacecraft in 3D space.
+
+## Project Overview
+This project simulates the rotational dynamics of a spacecraft and implements a feedback control system to bring the vehicle from an initial "error" state (offset orientation) to a target "nadir-pointing" state (0, 0, 0 degrees).
+
+### Features
+* **Physics Engine:** Models rigid body dynamics using Euler integration.
+* **PID Control:** Separate gains for Roll, Pitch, and Yaw axes to handle varying moments of inertia.
+* **Headless Visualization:** Automatically generates and saves flight telemetry graphs as PNG files.
+
+## 📐 The Physics
+The simulator solves the rotational version of Newton's Second Law:
+$$\tau = I \alpha$$
+Where:
+- **$\tau$ (Torque)** is the control effort from the PID.
+- **$I$ (Inertia)** represents the mass distribution of the craft.
+- **$\alpha$ (Acceleration)** is the resulting change in rotational speed.
