@@ -17,3 +17,13 @@ Where:
 - **$\tau$ (Torque)** is the control effort from the PID.
 - **$I$ (Inertia)** represents the mass distribution of the craft.
 - **$\alpha$ (Acceleration)** is the resulting change in rotational speed.
+
+## Simulation
+
+
+https://github.com/user-attachments/assets/28b1aa29-ecd6-4945-ab2e-095f3850a858
+<img width="1000" height="600" alt="stabilization_results" src="https://github.com/user-attachments/assets/8b0c5654-abcc-4027-9a72-2f8470eb5e50" />
+
+
+
+
